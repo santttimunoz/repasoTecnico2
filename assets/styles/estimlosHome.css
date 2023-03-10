@@ -1,0 +1,28 @@
+.banner{
+    background-image: url(../../assets/img/banner.jpg);
+    background-position: top center;
+    /**c */
+    background-size: cover;
+    padding: 25% 10% 30% 20%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.baner::after{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+.menuPrincipal{
+    background-color: transparent !important;
+    transition: 2s;
+}
+.menuSecundario{
+    background-color:gray;
+    transition: 2s;
+}
